@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lynn Nguyen | About Me</title>
+    <link rel="stylesheet" href="assets/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#about">Skip to content</a>
+    <header class="site-header">
+      <nav class="nav container" aria-label="Primary">
+        <a class="logo" href="#about">Lynn</a>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section id="about" class="hero reveal">
+        <div class="hero-copy">
+          <p class="eyebrow">About Me</p>
+          <h1 id="name"></h1>
+          <p class="headline" id="headline"></p>
+          <p class="summary" id="summary"></p>
+          <div class="hero-actions">
+            <a class="btn" href="lynnresumepdf.pdf" download>Download Resume PDF</a>
+            <a class="btn btn-secondary" id="email-btn" href="#contact">Email me</a>
+          </div>
+        </div>
+        <div class="hero-photo-wrap">
+          <img src="Lynn.PNG" alt="Portrait of Lynn Nguyen" class="hero-photo" />
+        </div>
+      </section>
+
+      <section id="skills" class="section reveal">
+        <h2>Skills</h2>
+        <div id="skills-grid" class="skills-grid"></div>
+      </section>
+
+      <section id="experience" class="section reveal">
+        <h2>Experience</h2>
+        <div id="experience-list" class="experience-list"></div>
+      </section>
+
+      <section id="education" class="section reveal">
+        <h2>Education</h2>
+        <div id="education-list" class="education-list"></div>
+      </section>
+
+      <section id="contact" class="section reveal">
+        <h2>Contact</h2>
+        <div class="card contact-card" id="contact-card"></div>
+      </section>
+    </main>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
